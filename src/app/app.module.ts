@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContainerComponentComponent } from './container-component/container-component.component';
 import { NavBarComponent } from './container-component/nav-bar/nav-bar.component';
+import { BioComponent } from './container-component/bio/bio.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { NavBarComponent } from './container-component/nav-bar/nav-bar.component
     AppComponent,
     ContainerComponentComponent,
     NavBarComponent,
+    BioComponent,
     
   ],
   imports: [
