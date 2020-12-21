@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ContainerComponentComponent } from './container-component/container-component.component';
+import { NavBarComponent } from './container-component/nav-bar/nav-bar.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ContainerComponentComponent,
+    NavBarComponent,
     
   ],
   imports: [
