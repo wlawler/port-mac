@@ -8,10 +8,6 @@ import { ContainerComponentComponent } from './container-component/container-com
 import { BioComponent } from './container-component/bio/bio.component';
 import { HiringdesiresComponent } from './container-component/hiring-desires/hiring-desires.component';
 
-   const routes: Routes = [
-     {
-     }
- ]
 
 
 
