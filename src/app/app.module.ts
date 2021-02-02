@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router'
-//import { AppRoutingModule } from './app-routing.module.tx';
+import { AppRoutingModule } from '../app/app-routing.module';
 import { AppComponent } from './app.component';
 import { ContainerComponentComponent } from './container-component/container-component.component';
 //import { NavBarComponent } from './container-component/nav-bar/nav-bar.component';
@@ -21,15 +21,15 @@ import { HiringdesiresComponent } from './container-component/hiring-desires/hir
   declarations: [
     AppComponent,
     ContainerComponentComponent,
-   // NavBarComponent,
+  //  NavBarComponent,
     BioComponent,
     HiringdesiresComponent,
     
   ],
   imports: [
     BrowserModule,
-    //AppRoutingModule
-    RouterModule.forRoot(routes)
+    AppRoutingModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]

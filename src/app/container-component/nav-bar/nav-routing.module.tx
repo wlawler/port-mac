@@ -1,8 +1,12 @@
 import {NgModule} from '@angular/core'; 
 import {RouterModule, Routes} from'@angular/router';
+import {BioComponent } from '../bio/bio.component';
 
 const navRoutes: Routes = [ 
-
+ {
+     path: 'bio', 
+     component: BioComponent, 
+ }
 ]; 
 
 @NgModule({ 
