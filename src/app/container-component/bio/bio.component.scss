@@ -8,13 +8,17 @@ font-size: 18px;
 line-height: 1.8;
 text-align: center;
 position: relative ;
-right: 100px;
+left: 600px;
 }
 
 a { 
     color:white;
 }
-img.image-container {
-    height: 100px;
-    width: 100px;
+img {
+    height: 450px;
+    width: 350px;
+    position: relative;
+    left: 200px;
+    bottom: 120px
+
 }
