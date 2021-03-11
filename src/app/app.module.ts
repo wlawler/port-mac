@@ -7,6 +7,7 @@ import { ContainerComponentComponent } from './container-component/container-com
 //import { NavBarComponent } from './container-component/nav-bar/nav-bar.component';
 import { BioComponent } from './container-component/bio/bio.component';
 import { HiringdesiresComponent } from './container-component/hiring-desires/hiring-desires.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 
@@ -24,7 +25,8 @@ import { HiringdesiresComponent } from './container-component/hiring-desires/hir
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   
   ],
   providers: [],
