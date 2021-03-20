@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import {BioComponent} from './container-component/bio/bio.component';
-import { HiringdesiresComponent } from './container-component/hiring-desires/hiring-desires.component';
+import {HomeComponent} from './home/home.component';
+import { HiringdesiresComponent } from './hiring-desires/hiring-desires.component';
 
 
 const routes: Routes = [
 {
-  path: 'bio', 
-  component: BioComponent, 
+  path: 'home', 
+  component: HomeComponent, 
 } , 
 {
   path:'hiringdesires', 

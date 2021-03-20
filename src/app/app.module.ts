@@ -5,8 +5,8 @@ import { AppRoutingModule } from '../app/app-routing.module';
 import { AppComponent } from './app.component';
 import { ContainerComponentComponent } from './container-component/container-component.component';
 //import { NavBarComponent } from './container-component/nav-bar/nav-bar.component';
-import { BioComponent } from './container-component/bio/bio.component';
-import { HiringdesiresComponent } from './container-component/hiring-desires/hiring-desires.component';
+import { HomeComponent } from './home/home.component';
+import { HiringdesiresComponent } from './hiring-desires/hiring-desires.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
@@ -19,7 +19,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AppComponent,
     ContainerComponentComponent,
   //  NavBarComponent,
-    BioComponent,
+    HomeComponent,
     HiringdesiresComponent,
     
   ],

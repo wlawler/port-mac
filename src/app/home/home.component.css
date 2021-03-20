@@ -1,0 +1,28 @@
+
+div.competencies { 
+    border: 5px solid red;
+    background-color:green;
+    position:relative; 
+    top: 125px;
+}
+
+.mainList{ 
+    color: purple
+}
+/*
+h1{ 
+    color: green
+}
+*/
+.competency-header {
+    color: red; 
+    position: absolute;
+    top: 0px;
+    left: 500px;
+}
+
+.mainList{
+    color: orange; 
+    position: absolute; 
+
+}
